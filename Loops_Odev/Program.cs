@@ -45,31 +45,22 @@ Console.ReadLine();
 
 //BU SORUNUN İÇİNDEN ÇIKAMADIM.....
 
-//float vize, final, ortalama;
-//int ogrenci = 5;
+float vize, final, ortalama;
+int ogrenci = 5;
 
-//while (ogrenci > 0)
-//{
-//    Console.WriteLine("Vize Notunuz: 0 - 100 arası bir değer giriniz");
-//    vize = Convert.ToSingle(Console.ReadLine());
+while (ogrenci > 0)
+{
+    Console.WriteLine("Vize Notunuz: 0 - 100 arası bir değer giriniz");
+    vize = Convert.ToSingle(Console.ReadLine());
 
-//    Console.WriteLine("Final: 0 - 100 arası bir değer giriniz");
-//    final = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Final: 0 - 100 arası bir değer giriniz");
+    final = Convert.ToSingle(Console.ReadLine());
 
-//    ortalama = vize * 0.5f + final * 0.4f;
-//    Console.WriteLine("Ortalamanız:" + " " + ortalama);
-//    Console.WriteLine(" ");
+    ortalama = vize * 0.5f + final * 0.4f;
+    Console.WriteLine("Ortalamanız:" + " " + ortalama);
+    Console.WriteLine(" ");
 
-//    ogrenci--;
-
-//    if (ortalama >= 75)
-//    {
-//        Console.WriteLine("En Yüksek Ortalama" + ortalama);
-//    }
-//    else if (ortalama <= 25)
-
-//        Console.WriteLine("En Düşük Ortalama" + ortalama);
-
-//}
+    ogrenci--;
+}
 
 
